@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #339966;
+    font-family: 'Source Sans Pro';
+}
+
+h1 {
+    font-family: 'Roboto';
+}
+
+.loginform {
+    background-color: white;
+    padding: 2%;
+
+    margin: auto;
+    margin-top: 10%;
+    width: 30%;
+}
+
+hr {
+    border: 1px solid #339966;
+}
+h3 i {
+    vertical-align: middle;
+}
+
+.loginform h1 {
+    /* text-align: center; */
+}
+
+a {
+    color: #339966;
+    text-decoration: none;
+}
+
+p{
+    color: gray;
+}
+
+.loginfield input{
+    padding: 3%;
+    width: 50%;
+    border: none;
+    background-color: #339966;
+    color: white;
+}
+
+.loginfield input:focus {
+    border: none;
+    /* border-bottom: 2px solid #3366cc; */
+
+    transition: 0.5s;
+}
+
+.loginfield input[type=text] {
+    background-image: url(../images/permid.svg);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.loginfield input[type=password] {
+    background-image: url(../images/vpn.svg);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.loginfield input[type=email] {
+    background-image: url(../images/email.svg);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+::placeholder {
+    color: white;
+}
+
+/* .loginfield input[type=text]{
+    background-image: url('./images/pass.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-color: white;
+} */
+
+.loginfield h3{
+    margin-bottom: none;
+    border-bottom: none;
+}
+
+.submitbutton {
+    margin-top: 5%;
+    border: none;
+    background-color: #339966;
+    padding: 2%;
+    color: white;
+}
