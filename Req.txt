@@ -1,0 +1,18 @@
+Database Table for users {
+    Username
+    Password
+    Email
+    ID
+    Profile Picture
+    Bio
+    Status
+}
+
+Database Table for posts {
+    Timestamp
+    Person Who Posted(Foreign ID)
+    Title
+    Content(Could be Image)
+    Likes
+    Comments
+}
