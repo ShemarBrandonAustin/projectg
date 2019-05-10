@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    margin: 0;
+}
+
+.logoname {
+    float: left;
+    padding-left: 1%;
+    font-family: 'Source Sans Pro';
+    color: #339966;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    border-bottom: 1px solid #339966;
+}
+
+li {
+    float: left;
+    padding-top: 0.8%;
+    padding-left: 1%;
+}
+
+li a:hover {
+    color: #339966;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.posts {
+    /* padding: 2%; */
+    display: block;
+    margin: auto;
+    width: 35%;
+    overflow: hidden;;
+}
+
+.posts h1 {
+    padding-top: 1%;
+    margin-left: 12%;
+    font-family: 'Roboto'
+}
+
+.posts:hover {
+    box-shadow: 5px 5px 5px 5px #d9d9d9;
+    transition: 0.5s;
+}
+
+.timestamp {
+    color: gray;
+    font-family: 'Roboto';
+}
+
+.posttitle {
+    font-family: 'Roboto';
+}
+
+.userimage {
+    width: 10%;
+    height: 10%;
+    /* margin-left: 10%; */
+    float: left;
+
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 60px;
+    background-clip: padding-box;
+}
+
+.postimage {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.beforeimg {
+    padding-left: 1%;
+}
+
+.afterimage {
+    padding: 2%;
+}
+
+.afterimage button {
+    background-color: white;
+    border: none;
+}
+
+.afterimage button:focus {
+    outline: none;
+}
+
+.afterimage input {
+    background-color: #339966;
+    color: white;
+    border: none;
+    padding: 5%;
+    width: 50%;
+    display: inline;
+}
+
+::placeholder {
+    color: white;
+}
+
+.afterimage small {
+    font-family: 'Roboto';
+    vertical-align: middle;
+}
+
+.votebuttons {
+    float: left;
+}
+
+.commentinput {
+    float: left;
+    margin-bottom: 2%;
+}
+
+.commentsubmit {
+    float: left;
+}
+
+.commentimage {
+    width: 10%;
+    height: 10%;
+    margin-left: 10%;
+    float: left;
+
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 60px;
+    background-clip: padding-box;
+}
+
+.material-icons {
+    margin-top: 1%;
+}
+
+#thumbup:hover {
+    color: blue;
+}
+
+#thumbdown:hover {
+    color: red;
+}
