@@ -2,15 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-body {
-    margin: 0;
+.navbar-brand {
+    font-family: 'Poppins';
+    color: #339966;
+    font-size: 2em;
+    padding-top: 1.5%;
+    padding-left: 2%;
 }
 
-.logoname {
-    float: left;
-    padding-left: 1%;
+.icon-names {
     font-family: 'Source Sans Pro';
-    color: #339966;
+}
+
+body {
+    margin: 0;
 }
 
 ul {
@@ -41,11 +46,13 @@ li a {
 }
 
 .posts {
-    /* padding: 2%; */
-    display: block;
-    margin: auto;
-    width: 35%;
-    overflow: hidden;;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.container {
+   width: 40%; 
 }
 
 .posts h1 {
@@ -62,6 +69,7 @@ li a {
 .timestamp {
     color: gray;
     font-family: 'Roboto';
+    padding-left: 5%;
 }
 
 .posttitle {
@@ -93,74 +101,4 @@ li a {
 
 .beforeimg {
     padding-left: 1%;
-}
-
-.afterimage {
-    padding: 2%;
-}
-
-.afterimage button {
-    background-color: white;
-    border: none;
-}
-
-.afterimage button:focus {
-    outline: none;
-}
-
-.afterimage input {
-    background-color: #339966;
-    color: white;
-    border: none;
-    padding: 5%;
-    width: 50%;
-    display: inline;
-}
-
-::placeholder {
-    color: white;
-}
-
-.afterimage small {
-    font-family: 'Roboto';
-    vertical-align: middle;
-}
-
-.votebuttons {
-    float: left;
-}
-
-.commentinput {
-    float: left;
-    margin-bottom: 2%;
-}
-
-.commentsubmit {
-    float: left;
-}
-
-.commentimage {
-    width: 10%;
-    height: 10%;
-    margin-left: 10%;
-    float: left;
-
-    -webkit-border-radius: 60px;
-    -webkit-background-clip: padding-box;
-    -moz-border-radius: 60px;
-    -moz-background-clip: padding;
-    border-radius: 60px;
-    background-clip: padding-box;
-}
-
-.material-icons {
-    margin-top: 1%;
-}
-
-#thumbup:hover {
-    color: blue;
-}
-
-#thumbdown:hover {
-    color: red;
 }
