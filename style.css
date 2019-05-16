@@ -2,12 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+@keyframes flagcolor {
+    0% {color: #339966; text-shadow: none;}
+    20% {color: red; text-shadow: none;}
+    40% {color: black; text-shadow: none;}
+    60% {color: yellow; text-shadow: none;}
+    80% {color: white; text-shadow: 2px 2px #a7a7a7;}
+    100% {color: green; text-shadow: none;}
+}
+
 .navbar-brand {
     font-family: 'Poppins';
     color: #339966;
     font-size: 2em;
     padding-top: 1.5%;
     padding-left: 2%;
+}
+
+.navbar-brand:hover {
+    animation-name: flagcolor;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; 
 }
 
 .icon-names {
@@ -28,13 +43,13 @@ ul {
 }
 
 li {
-    float: left;
     padding-top: 0.8%;
     padding-left: 1%;
 }
 
 li a:hover {
     color: #339966;
+    transition: 0.5s;
 }
 
 li a {
@@ -81,6 +96,20 @@ li a {
     height: 10%;
     /* margin-left: 10%; */
     float: left;
+
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 60px;
+    background-clip: padding-box;
+}
+
+.userimagenav {
+    width: 3%;
+    height: auto;;
+    /* margin-left: 10%; */
+    /* float: right; */
 
     -webkit-border-radius: 60px;
     -webkit-background-clip: padding-box;
