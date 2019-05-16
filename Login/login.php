@@ -9,11 +9,6 @@
     <title>Project Gyna Login</title>
 </head>
 <body>
-    <?php
-    if(isset($_POST['username'])) {
-        echo $_POST['username'];
-    }
-    ?>
 
         <div class="loginform">
                 <h1>Gyna</h1>
