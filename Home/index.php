@@ -1,3 +1,5 @@
+<?php session_start(); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +13,13 @@
     <title>Gyna</title>
 </head>
 <body>
+    <?php
+    if(isset($_SESSION['username'])) {
+        echo $_SESSION['username'];
+    } else {
+        echo 'Error';
+    }
+    ?>
 
                     <ul class="nav">
                         <h2 class="navbar-brand">Project Gyna</h2>

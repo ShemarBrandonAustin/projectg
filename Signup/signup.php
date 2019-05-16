@@ -14,7 +14,7 @@
 
     try{
         $bulk->insert($user);
-        $manager = new MongoDB\Driver\Manager("mongodb+srv://john:john123@gynacluster-frcod.mongodb.net/test?retryWrites=true");
+        include '../Connection/db.inc.php';
         $result = $manager->executeBulkWrite('gyna.user',$bulk);
         echo "User Added";
 
